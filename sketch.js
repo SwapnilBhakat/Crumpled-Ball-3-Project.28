@@ -20,6 +20,7 @@ function setup() {
  paperBall=new Paper(200,300)
  dustbin=new Dustbin(1200,570,200,20)
  slingshot =new SlingShot(paperBall.body,{x:200, y:50});
+ ground = new Ground(600, height-35, 1200, 15); 
 
 
 	Engine.run(engine);
